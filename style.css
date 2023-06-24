@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #201b2c;
+    color: white;
+
+}
+
+body{
+    height: 100vh;
+	flex-direction: column;
+}
+
+.header-index{
+    font-size: 16px;
+    text-align: center;
+    font-style: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+}
+
+.header-index > i {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.footer-index{
+	padding: 20px;
+	text-align: center;
+    font-style: bold;
+    padding: 20px;
+    position: relative;
+    height: 75px; 
+}
+
+.header-index, .footer-index, .cad-index, .parag-index{
+    background-color: #2f2841;
+}
+  
+  #cad-index {
+    width: 100px;
+   
+  }
+  
+  .footer-index p {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .footer-img-index {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  /* Estilização da Navbar */
+  
+.navbar-index {
+    background-color: #2f2841;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  .nav-link-index {
+    color: #0f8;
+    background-color: #2f2841;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 0px 110px;
+  }
+
+  .navbar-index > * {
+    padding: 0 5px;
+  }
+  
+  .nav-link-index:hover {
+    color: #000;
+    background-color: #2d2249;
+  }
+
+  .paragra-index{
+    text-align: center;
+    font-size: 16px;
+  }
+
+ #s-index{
+    font-size: 40px;
+ }
+
+ /* Imagens do site e texto */
+
+ #jogar-index {
+  background-color: #201b2c;
+ }
+
+ #form-input-index{
+  width: 400px;
+  height: 100px;
+ }
+
+ #submit-button-index {
+  width: 150px;
+  height: 75px;
+ }
+
+ .image-container-index {
+  display: flex; 
+}
+
+.image-index {
+  flex: 1; 
+  margin-right: 10px; 
+}
+
+.image-index img {
+  width: 100%; 
+  height: 300px;
+}
+
+
+/* Tela de Login e Tela de Cadastro*/
+
+#header-login, #login-i, #cad-index{
+    background-color: #201b2c;
+}
+
+.login-main{
+    width: 98.7vw;
+    height: 96.9vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #201b2c;
+}
+
+.left-login{
+    width: 50vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login > h2 {
+    color: #77ffc0;
+    background-color: #201b2c;
+    text-align: center;
+}
+
+.right-login{
+    width: 50vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login > h1 {
+    color: #0f8;
+    background: #2f2841;
+    font-weight: 800;
+    margin: 0;
+}
+
+.text-field {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #2f2841;
+}
+
+.text-field > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background:#514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.text-field > label{
+    color:  #f0ffffde;
+    margin-bottom: 10px;
+    background-color: #2f2841;
+}
+
+.text-field > input::placeholder{
+    color: #f0ffff94;
+}
+
+.btn-login{
+    width: 120%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f2841;
+}
+
+
+a {
+    text-decoration: none;
+    background-color: #00ff88;
+}
+
+/* style.css */
+
+.navbar-games {
+    margin-bottom: 16px;
+    
+}
+
+.filter-btn {
+    cursor: pointer;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 8px;
+    background-color: #2f2841;
+}
+
+.filter-btn.active {
+    background-color: #ddd;
+    background-color: #2f2841;
+}
+
+.items {
+    white-space: nowrap;
+}
+
+.item {
+    display: none;
+    display: inline-block;
+}
+
+
+/* Estilização do talkus */
+
+
+.container-talkus {
+    display: flex;
+  }
+  
+  .sidebar-talkus {
+    width: 25%;
+    background-color: #201b2c;
+    color: #fff;
+    padding: 2rem;
+  }
+  
+  .contact-info-talkus {
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+  
+  .link-talkus{
+    font-style: normal;
+    background-color: #201b2c;
+  }
+  .content-talkus {
+    width: 75%;
+    padding: 2rem;
+  }
+  
+  /* Resto dos estilos... */
+  
+
+.page-title-talkus {
+    font-size: 2.5rem;
+
+  }
+  
+  /* Container para o formulário de contato */
+  .form-container-talkus {
+    width: 40%;
+    background-color: #201b2c;
+    border-radius: 10px;
+    padding: 2rem;
+  }
+  
+  /* Estilo para os campos de texto do formulário */
+  .form-input-talkus {
+    width: 100%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .form-input-talkus label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .form-input-talkus input,
+  .form-input-talkus textarea {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #f2f2f2;
+    font-size: 1.2rem;
+    color: #333;
+    box-shadow: 0px 5px 20px #00000024;
+    outline: none;
+  }
+  
+  .form-input-talkus textarea {
+    height: 10rem;
+  }
+  
+  /* Botão de enviar */
+  .submit-button-talkus {
+    width: 110%;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color: #0f8;
+    cursor: pointer;
+    box-shadow: 0px 5px 20px #00000024;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .submit-button-talkus:hover {
+    background-color: #0f6;
+  }
+
+/* Controle de Audio */
+
+ audio {
+   width: 0;
+   height: 0;
+   visibility: hidden;
+   pointer-events: none;
+    }
+
+
+ @media only screen and (max-width: 950px){
+    .card-login{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .login-main{
+        flex-direction: column;
+    }
+    .left-login > h2{
+        display: none;
+    }
+
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+
+    .left-login > img{
+        width: 50vw;
+    }
+
+    .card-login{
+        width: 90%;
+    }
+}
+
