@@ -42,7 +42,7 @@ session_start();
 <body>
   <div class="content-talkus">
     <div class="form-container-talkus">
-      <form method="POST" action="enviar_email.php">
+      <form method="POST" action="destino.php">
         <div class="form-input-talkus">
           <label for="name">Nome:</label>
           <input type="text" id="name" name="name" autocomplete="off" required>

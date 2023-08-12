@@ -42,7 +42,7 @@
         <br>
         <br>
           <p  class="paragra-index">
-            São jogos para todos os gostos, experimente alguns na aba <a class= 'nav-link-index' id="jogar-index" href="game.html"> Jogos </a>
+            São jogos para todos os gostos, experimente alguns na aba <a class= 'nav-link-index' id="jogar-index" href="game.php"> Jogos </a>
           </p>
         <br>
         <br>
